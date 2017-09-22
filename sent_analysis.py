@@ -8,7 +8,7 @@ search_item = input("Enter the search text: ")
 
 """ Authentication access from Twitter """
 
-consumer_key = $consumer_key 					#Env variables set to keys and secret values
+consumer_key = $consumer_key 				#Env variables set to keys and secret values
 consumer_secret = $consumer_secret
 access_token = $access_token
 access_token_secret = $access_token_secret
