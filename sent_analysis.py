@@ -6,11 +6,12 @@ tweet_cnt = 0
 pos_tweet_cnt, neg_tweet_cnt, neu_tweet_cnt = 0, 0, 0
 search_item = input("Enter the search text: ")
 
-consumer_key = "yYpenGW8K835LBzmv6yrwdZ2z" 								#"thO5D3znaNrUvPNUzhQVnipPB"
-consumer_secret = "KduEOuMuKXkL8qgDR3d00xJKk7SJrziQias6pOi48joZTfJCbg" 	#"0OEBfqgSVd6urMNkTH52fD92OUSzz2JASKQQOzbC3ZxQvNdnO6"
+""" Authentication access from Twitter """
 
-access_token = "226849265-P8X9zlTdx5WkzKsuCBiTWlOqibb0gLwiuDAkvgIK" 	#"226849265-PWLIIF7Ycnx1xIVQBjAKx7nElJmwRoYyAwhv6rl3"
-access_token_secret = "K7AClLUTVzTD44IMW8oW6s5YDUZs1QTlys6CeUnCfdYwO" 
+consumer_key = $consumer_key 					#Env variables set to keys and secret values
+consumer_secret = $consumer_secret
+access_token = $access_token
+access_token_secret = $access_token_secret
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
