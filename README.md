@@ -1,4 +1,4 @@
-# tweet_analysis
+## tweet_analysis
 
 ### Python scripts that fetch tweets from Twitter API and perform various analyses on the tweet data.
 
