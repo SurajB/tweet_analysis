@@ -1,11 +1,13 @@
-""" This app gets the most retweeted tweet of a twitter user """
+""" This app gets the most retweeted tweet of a twitter user using twitter API """
 
 from twitter import *
 
-token = "226849265-P8X9zlTdx5WkzKsuCBiTWlOqibb0gLwiuDAkvgIK"          	#token key
-token_key = "K7AClLUTVzTD44IMW8oW6s5YDUZs1QTlys6CeUnCfdYwO"				#token_secret
-con_secret = "yYpenGW8K835LBzmv6yrwdZ2z"								#consumer_key
-con_secret_key = "KduEOuMuKXkL8qgDR3d00xJKk7SJrziQias6pOi48joZTfJCbg"	#consumer_secret
+""" Authentication token values are removed for privacy """
+
+token = #token key
+token_key = #token_secret
+con_secret = #consumer_key
+con_secret_key = #consumer_secret
 
 twtr_handle = input("Enter the twitter handle: ")
 total_tweets = []
@@ -43,6 +45,7 @@ print("The most RTed tweet is: {}".format(tweet_text))
 print("No of RTs : {}".format(max_rt))
 
 # """ To send a DM to a twitter user """
+
 # t.direct_messages.new(
 # user=twtr_handle,
 # text="Hi dude!")
